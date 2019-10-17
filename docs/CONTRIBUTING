@@ -1,0 +1,12 @@
+# Wymagania dotyczące projektu:
+--------------------------------------------
+
+ - Styl kodu ma być jednolity,
+ - Kod ma być przejrzysty i mówić sam za siebie,
+ - Komentarze nie powinny opisywać oczywistych oczywistości, lecz wyjaśniać co robi kod,
+ - Wykorzystywanie zewnętrznych bibliotek oraz technologii jest jak najbardziej mile widzianie
+ - Jeżeli funkcja jest dłuższa niż 30 linijek i zawiera 5 poziomów indentacji, robisz coś źle,
+ - Nie korzystamy ze starych technologii,
+ - Kombatybilność z Firefox'em oraz Chrome'em musi być zapewniona,
+ - Komentarze w kodzie oraz wasze commity mają być w języku angielskim,
+ - Reponsywność pomiędzy urządzeniami i rozdzielczościami ekranu,

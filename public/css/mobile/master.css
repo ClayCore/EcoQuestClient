@@ -1,0 +1,189 @@
+/* Include a global CSS reset */
+@import url('reset.css');
+
+/* BEGIN - FONT DEFINITIONS */
+@import url('https://use.fontawesome.com/releases/v5.11.2/css/all.css');
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../res/fonts/Roboto-Thin.ttf');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../res/fonts/Roboto-ThinItalic.ttf');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../res/fonts/Roboto-Light.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../res/fonts/Roboto-LightItalic.ttf');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../res/fonts/Roboto-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../res/fonts/Roboto-Italic.ttf');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../res/fonts/Roboto-Medium.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../res/fonts/Roboto-MediumItalic.ttf');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../res/fonts/Roboto-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../res/fonts/Roboto-BoldItalic.ttf');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../res/fonts/Roboto-Black.ttf');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../res/fonts/Roboto-BlackItalic.ttf');
+    font-weight: 800;
+    font-style: italic;
+}
+/* END - FONT DEFINITIONS */
+
+div#root {
+    width: 100%;
+    height: 100%;
+}
+
+div#wrapper {
+	width: 100%;
+    height: 100%;
+    background-color: rgb(34, 34, 34);
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto';
+    scroll-behavior: smooth;
+}
+
+div#mobile {
+    display: none;
+}
+
+div#sidebar {
+    width: 100%;
+    height: 3rem;
+    background-color: rgb(34, 34, 34);
+    position: relative;
+    box-shadow: 2px 0px 6px rgba(0, 0, 0, 0.5);
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+    flex-direction: row;
+    z-index: 50;
+}
+
+div#sidebar #banner {
+	width: 2.5em;
+	height: 2.5em;
+	box-sizing: border-box;
+	margin-left: 0.25em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+div#sidebar #banner img {
+	height: 2.5em;
+	width: auto;
+}
+
+div#sidebar #searchbar {
+	display: none;
+}
+
+div#sidebar nav {
+	width: calc(100% - 3em);
+	height: 1em;
+	margin-left: 1em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+}
+
+div#sidebar a {
+    width: 35%;
+	background-color: rgb(34, 34, 34);
+	text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+	height: 2em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.5em;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+div#topbar {
+    display: none;
+}
+
+div#main {
+    width: 100%;
+    height: calc(100% - 3rem);
+    background-color: rgb(255, 255, 255);
+}
+
+#main iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/* Subpage content */
+div#content {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: calc(100% - 3rem);
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
